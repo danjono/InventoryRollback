@@ -15,6 +15,10 @@ public class CommandsTab extends ConfigFile implements TabCompleter {
     public List<String> onTabComplete(CommandSender sender, Command command, String alias, String[] args) {
         List<String> cmdlist = new ArrayList<String>();
         if (args.length == 1) {
+
+            cmdlist.add("help");
+            cmdlist.add("info");
+
             if (sender.hasPermission("inventoryrollback.restore") && sender instanceof Player) {
                 cmdlist.add("restore");
             }
