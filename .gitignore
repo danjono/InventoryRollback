@@ -1,2 +1,21 @@
+# Target jars #
 /target/
+
+# Compiled source #
+*.class
+/out/
+
+# Eclipse files #
+.settings
+.classpath
+.project
+
+# ItelliJ files #
+.idea
+/InventoryRollback.iml
+/shelf/
+/workspace.xml
+
+# Maven
+/target/**
 /dependency-reduced-pom.xml

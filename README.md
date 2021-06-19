@@ -1,7 +1,10 @@
+# Why does this fork exist?
+Danjono, the plugin's original dev, seems to have disappeared off the face of the earth. I intend to maintain this fork in their absence. I will be manually merging pull requests (which I believe are of benefit to the plugin) from the original repo.
+
 ![](https://i.imgur.com/KmwQQoi.png)
 # Inventory Rollback
 
-### Minecraft Bukkit Plugin - Tested with versions 1.8.8 - 1.16.3
+### Minecraft Bukkit Plugin - Tested with versions 1.8.8 - 1.17.0
 
 This plugin will log a players' inventory, health, hunger, experience, and ender chest during certain events. Perfect if someone loses their gear because of an admin mishap or if a bad plugin accidentally wipes a players data for example! These logged events include:-  
 
@@ -31,4 +34,4 @@ inventoryrollback.leavesave - Saves inventory on leaving the server. (Default: A
 inventoryrollback.worldchangesave  - Saves inventory when changing to a different world. (Default: All)  
 
 ## Spigot Link
-[https://www.spigotmc.org/resources/inventory-rollback.48074/](https://www.spigotmc.org/resources/inventory-rollback.48074/)
+[https://www.spigotmc.org/resources/inventory-rollback-continued.93436/](https://www.spigotmc.org/resources/inventory-rollback-continued.93436/)
