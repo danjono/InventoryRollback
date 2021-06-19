@@ -46,9 +46,9 @@ public class InventoryRollback extends JavaPlugin {
 
         startupTasks();
 
-        if (ConfigFile.bStatsEnabled)
+        if (ConfigFile.bStatsEnabled) {
             bStats();
-
+        }
         this.getCommand("inventoryrollback").setExecutor(new Commands());
         this.getCommand("inventoryrollback").setTabCompleter(new CommandsTab());
 

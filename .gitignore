@@ -3,6 +3,7 @@
 
 # Compiled source #
 *.class
+/out/
 
 # Eclipse files #
 .settings
@@ -11,11 +12,10 @@
 
 # ItelliJ files #
 .idea
-/AntiWorldFly.iml
+/InventoryRollback.iml
 /shelf/
 /workspace.xml
 
+# Maven
+/target/**
 /dependency-reduced-pom.xml
-.idea
-/out/
-/InventoryRollback.iml
